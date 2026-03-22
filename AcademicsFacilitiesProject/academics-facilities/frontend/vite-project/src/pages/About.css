@@ -1,0 +1,57 @@
+.about-container {
+  padding: 30px;
+  color: white;
+}
+
+/* HERO */
+.about-hero {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  color: #aaa;
+}
+
+/* IMAGE */
+.about-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* CARD */
+.about-card {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 12px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* GRID */
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* BOX */
+.about-box {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.about-box:hover {
+  transform: translateY(-5px);
+  background: #2563eb;
+}

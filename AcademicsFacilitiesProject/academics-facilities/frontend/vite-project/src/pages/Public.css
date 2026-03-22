@@ -1,0 +1,46 @@
+/* HERO */
+.hero {
+  height: 40vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("https://images.unsplash.com/photo-1596495578065-6e0763fa1178");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  text-align: center;
+}
+
+/* SECTION */
+.section {
+  padding: 40px;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* CARD */
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: #2563eb;
+}
